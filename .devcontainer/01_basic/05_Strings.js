@@ -35,6 +35,6 @@ console.log(url.includes('shan'));
 
 console.log(gameName.split('-'));
 
-console.log(gameName.bold())sf
+console.log(gameName.bold());
 
 
