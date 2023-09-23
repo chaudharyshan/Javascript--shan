@@ -22,4 +22,11 @@ const real_other_array = other_array.flat(Infinity)
 
 
 console.log(Array.isArray("Shan"))
+console.log(Array.from("12345 shan"))
 console.log(Array.from({name: "shan"}))
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1, score2, score3));
