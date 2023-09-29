@@ -79,3 +79,9 @@ console.log(instructor);
 // }
 
 
+// JSON
+// {
+//     "name" : "shan",
+//     "corsname" : "js hindi",
+//     "price" : "free",
+// }
