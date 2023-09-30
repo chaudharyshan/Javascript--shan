@@ -18,7 +18,39 @@ function one() {
         console.log("Name ", username);
         }
         two()
-        console.log(username);
+       
 }
 
-one()
+// one()
+
+if (true) {
+
+    const username = "shan"
+    if (username === "Shan") {
+
+        const website = " Youtube"
+        // console.log(username + website);
+    }
+    
+}
+
+// +++++ IMP ++++
+
+//+++ function solo
+
+function addone(num) {
+
+    return num+1
+}
+console.log(addone(2));
+
+
+//+++ function in variables
+
+const addTwo = function (num) {
+
+    return num +2
+    
+}
+
+console.log(addTwo(5));
