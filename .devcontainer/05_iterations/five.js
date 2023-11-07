@@ -7,3 +7,4 @@ const code = ["js","rb","c++"]
 // code.forEach( (item) => {
 //     console.log(item);
 // })
+
