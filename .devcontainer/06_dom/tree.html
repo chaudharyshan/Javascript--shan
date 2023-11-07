@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai or code </title>
+</head>
+<body style = "background-color: black; color: aliceblue;">
+    
+</body>
+
+<script>
+    
+    const div = document.createElement('div')
+    console.log(div);
+
+    div.className = "name"
+    div.id = Math.round (Math.random() * 10 + 1)
+    div.setAttribute ("title", "shan is chaudhary")
+    div.style.backgroundColor = "green"
+    div.style.padding = "32px"
+    div.style.borderRadius = "24px"
+    div.style.alignContent = "center"
+
+    // div.innerText = "shan and chuadhry"
+
+
+   const addtext = document.createTextNode("shan and chaudhary") 
+   div.appendChild(addtext)
+
+   document.body.appendChild(div)
+
+
+</script>
+</html>
