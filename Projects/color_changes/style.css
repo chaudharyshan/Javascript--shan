@@ -17,9 +17,11 @@ html {
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
+  margin: 0.5rem;
   gap: 0.5rem;
-  border-bottom: solid 1px #aaa;
-  background-color: #eee;
+  border: solid 1px #aaaaaa2d;
+  border-radius: 0.5rem;
+  background-color: #23232315;
 }
   
   span {
