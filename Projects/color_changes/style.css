@@ -44,10 +44,13 @@ html {
     border: solid #23232335 1px;
     border-radius: 24px;
     display: inline-block;
+    transition: transform 100ms;
   }
 
   .button:hover {
     box-shadow: 1px 2px 8px #2323237c;
+    transform: translateY(-0.5rem);
+    transition: transform 250ms;
   }
 
   .button:active {
