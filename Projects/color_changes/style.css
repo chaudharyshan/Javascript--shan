@@ -47,7 +47,16 @@ html {
   }
 
   .button:hover {
-    box-shadow: 10px 10px 10px #23232335;
+    box-shadow: 1px 2px 8px #2323237c;
+  }
+
+  .button:active {
+    transform: scale(0.78);
+    
+  }
+
+  .button {
+    transition: transform ease 0.5s, box-shadow ease 0.5s;
   }
   
 
